@@ -8,6 +8,4 @@ for(let i=0; i<5; i++) {
 
 tasks.shift();
 
-for(let i=0; i<tasks.length; i++) {
-    console.log(tasks[i])
-}
+console.log(tasks)

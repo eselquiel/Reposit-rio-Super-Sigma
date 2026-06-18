@@ -8,6 +8,4 @@ for(let i=0; i<5; i++) {
 
 cities.unshift(prompt("Informe mais uma cidade: "));
 
-for(let i=0; i<cities.length; i++) {
-    console.log(cities[i])
-}
+console.log(cities)
