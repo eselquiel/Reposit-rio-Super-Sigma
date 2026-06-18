@@ -1,17 +1,13 @@
 const prompt = require("prompt-sync")();
 
-let cities = []
+let tasks = [];
 
 for(let i=0; i<5; i++) {
-    cities[i] = prompt("Informe uma cidade: ")
+    tasks[i] = prompt("Indique uma tarefa: ")
 }
 
-for(let i=0; i<cities.length; i++) {
-    console.log(cities[i])
-}
+tasks.shift();
 
-cities.push(prompt("Informe mais uma cidade: "));
-
-for(let i=0; i<cities.length; i++) {
-    console.log(cities[i])
+for(let i=0; i<tasks.length; i++) {
+    console.log(tasks[i])
 }
