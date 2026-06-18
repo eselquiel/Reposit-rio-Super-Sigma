@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")();
 
-let movies = []
+let movies = [];
 
 for(let i=0; i<5; i++) {
     movies[i] = prompt("Informe o nome de um filme: ")
